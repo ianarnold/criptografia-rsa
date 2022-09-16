@@ -47,3 +47,13 @@ C:\Users\arnol\OneDrive\Área de Trabalho\Envia\Envia\obj\Debug\Envia.csproj.Gen
 C:\Users\arnol\OneDrive\Área de Trabalho\Envia\Envia\obj\Debug\Envia.csproj.CoreCompileInputs.cache
 C:\Users\arnol\OneDrive\Área de Trabalho\Envia\Envia\obj\Debug\Envia.exe
 C:\Users\arnol\OneDrive\Área de Trabalho\Envia\Envia\obj\Debug\Envia.pdb
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\bin\Debug\Envia.exe.config
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\bin\Debug\Envia.exe
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\bin\Debug\Envia.pdb
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\obj\Debug\Envia.csproj.AssemblyReference.cache
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\obj\Debug\Envia.Form1.resources
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\obj\Debug\Envia.Properties.Resources.resources
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\obj\Debug\Envia.csproj.GenerateResource.cache
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\obj\Debug\Envia.csproj.CoreCompileInputs.cache
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\obj\Debug\Envia.exe
+C:\Users\Softcase\Desktop\criptografia-rsa\Envia\obj\Debug\Envia.pdb
