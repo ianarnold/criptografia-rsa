@@ -27,6 +27,7 @@ namespace Envia
 
         private void btnCriptografar_Click(object sender, EventArgs e)
         {
+            rchTxtResultado.Text = "";
             if (!rdbSimetrica.Checked && !rdbAssimetrica.Checked)
             {
                 MessageBox.Show("Selecione um tipo de chave para a criptografia.");
@@ -35,6 +36,12 @@ namespace Envia
             {
                 txtChave.Visible = true;
                 label4.Visible = true;
+                string frase, frasecripto, chave;
+                frase = txtCriptografia.Text;
+                chave = txtChave.Text;
+                frasecripto = keySi.EncryptAesManaged(frase);
+                rchTxtResultado.Clear();
+                rchTxtResultado.Text = frasecripto;
             } 
             else if (rdbAssimetrica.Checked)
             {
@@ -53,7 +60,16 @@ namespace Envia
             if (rchTxtResultado.Text == "")
             {
                 MessageBox.Show("Criptografe alguma mensagem");
-            } else
+            }
+            else if(rdbSimetrica.Checked)
+            {
+                string fraseDescrip, frasecripto, texto;
+                texto = txtCriptografia.Text;
+                frasecripto = rchTxtResultado.Text;
+                fraseDescrip = keySi.DecryptText(texto);
+                txtDescriptografia.Text = fraseDescrip;
+            }
+            else if (rdbAssimetrica.Checked)
             {
                 string fraseDescrip, fraseCripto;
                 fraseCripto = rchTxtResultado.Text;
